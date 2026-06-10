@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Winkart | Estudio de Pestañas</title>
+    <!-- Font Awesome 6 (iconos) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Fondo difuminado global -->
+    <div class="global-bg"></div>
+
+    <!-- Navegación -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <h1>winkart</h1>
+                <p>LASH STUDIO</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#portfolio">Portafolio</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenedor principal con efecto cristal -->
+    <div class="glass-container">
+
+        <!-- HERO SECTION -->
+        <section id="hero" class="hero">
+            <div class="container hero-container">
+                <div class="hero-text">
+                    <span class="hero-subtitle">Winkart Beauty</span>
+                    <h1>Miradas que <span class="highlight">hipnotizan</span></h1>
+                    <p>Extensiones de pestañas de alta calidad, diseño personalizado y acabados impecables. Realza tu belleza natural con un toque de sofisticación.</p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn-secondary">Ver trabajos <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT ME -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-title">
+                    <span class="title-badge">Conoce a tu artista</span>
+                    <h2>Sobre Mí</h2>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Sheila Hernández</h3>   
+                        <p class="about-tagline">Especialista en extensiones de pestañas & diseño de mirada</p>
+                        <p>Me he especializado en técnicas avanzadas de volumen, mega volumen y diseño armónico de mirada. Mi pasión es realzar la belleza natural de cada cliente a través de tratamientos personalizados.</p>
+                        <p>En <strong>Winkart</strong>, cada sesión es una experiencia de lujo, confianza y resultados impecables. Priorizo la salud de tus pestañas naturales mientras creamos juntas el estilo que mejor se adapte a tu forma de ojo y personalidad.</p>
+                        <div class="about-sign">
+                            <i class="fas fa-feather-alt"></i> — Sheila, tu artista de pestañas
+                        </div>
+                    </div>
+                    <div class="about-image-circle">
+                        <img src="about.png" alt="Sheila Hernández - Especialista en pestañas">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICIOS -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-title">
+                    <span class="title-badge">Precios y estilos</span>
+                    <h2>Nuestros Servicios</h2>
+                </div>
+                
+                <div class="services-wrapper">
+                    <div class="service-card" data-servicio="clasicas">
+                        <div class="service-image">
+                            <img src="clasicas.png" alt="Pestañas clásicas">
+                        </div>
+                        <h4>Clásicas</h4>
+                        <div class="price">1000 CUP</div>
+                        <p>Naturales y elegantes</p>
+                        <button class="btn-ver-mas">Ver más</button>
+                    </div>
+                    <div class="service-card" data-servicio="volumen2d">
+                        <div class="service-image">
+                            <img src="volumen2d.png" alt="Volumen 2D">
+                        </div>
+                        <h4>Volumen 2D</h4>
+                        <div class="price">1200 CUP</div>
+                        <p>Densidad suave</p>
+                        <button class="btn-ver-mas">Ver más</button>
+                    </div>
+                    <div class="service-card" data-servicio="volumen345d">
+                        <div class="service-image">
+                            <img src="volumen3d.png" alt="Volumen 3D-5D">
+                        </div>
+                        <h4>Volumen 3D · 4D · 5D</h4>
+                        <div class="price">1500 CUP</div>
+                        <p>Impacto glamuroso</p>
+                        <button class="btn-ver-mas">Ver más</button>
+                    </div>
+                    <div class="service-card" data-servicio="megavolumen">
+                        <div class="service-image">
+                            <img src="megavolumen.png" alt="Megavolumen">
+                        </div>
+                        <h4>Megavolumen</h4>
+                        <div class="price">2000 CUP</div>
+                        <p>Máxima intensidad</p>
+                        <button class="btn-ver-mas">Ver más</button>
+                    </div>
+                    <div class="service-card" data-servicio="puntos">
+                        <div class="service-image">
+                            <img src="punto.png" alt="Pestañas por puntos">
+                        </div>
+                        <h4>Pestañas por puntos</h4>
+                        <div class="price">1200 CUP</div>
+                        <p>Diseño personalizado</p>
+                        <button class="btn-ver-mas">Ver más</button>
+                    </div>
+                    <div class="service-card" data-servicio="anime">
+                        <div class="service-image">
+                            <img src="amine.jpg" alt="Estilo Anime">
+                        </div>
+                        <h4>Estilo Anime</h4>
+                        <div class="price">1800 CUP</div>
+                        <p>Mirada hipnótica estilo anime</p>
+                        <button class="btn-ver-mas">Ver más</button>
+                    </div>
+                </div>
+
+                <!-- Efectos destacados -->
+                <div class="effects-container">
+                    <span class="effect-badge"><i class="fas fa-cat"></i> Cat eye</span>
+                    <span class="effect-badge"><i class="fas fa-eye"></i> Ojo abierto</span>
+                    <span class="effect-badge"><i class="fas fa-dove"></i> Doll eye</span>
+                    <span class="effect-badge"><i class="fas fa-fan"></i> Efecto abanico</span>
+                
+                </div>
+            </div>
+        </section>
+
+       <!-- PORTAFOLIO -->
+<section id="portfolio" class="portfolio">
+    <div class="container">
+        <div class="section-title">
+            <span class="title-badge">Resultados reales</span>
+            <h2>Antes y Después</h2>
+        </div>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="trabajoclasicas.png" alt="Clasicas">
+                <div class="portfolio-overlay">
+                    <p>Clásicas</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="trabajocateye.png" alt="Volumen 2D">
+                <div class="portfolio-overlay">
+                    <p>Volumen 2D</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="trabajomegavolumen.png" alt="Megavolumen">
+                <div class="portfolio-overlay">
+                    <p>Volumen 3D</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="trabajo2d.png" alt="Efecto Cat Eye">
+                <div class="portfolio-overlay">
+                    <p>Volumen Natural</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <!-- CONTACTO + FORMULARIO DE RESERVAS -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-title">
+                    <span class="title-badge">Agenda tu cita</span>
+                    <h2>Reserva tu espacio</h2>
+                </div>
+                
+                <div class="booking-form">
+                    <h3><i class="fas fa-calendar-alt"></i> Reserva tu cita</h3>
+                    <form id="reservaForm">
+                        <div class="form-group">
+                            <input type="text" id="nombre" placeholder="Tu nombre completo" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="telefono" placeholder="Teléfono (WhatsApp)" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="servicio" required>
+                                <option value="">Selecciona un servicio</option>
+                                <option value="Clásicas">Clásicas</option>
+                                <option value="Volumen 2D">Volumen 2D</option>
+                                <option value="Volumen 3D-5D">Volumen 3D·4D·5D</option>
+                                <option value="Megavolumen">Megavolumen</option>
+                                <option value="Pestañas por puntos">Pestañas por puntos</option>
+                                <option value="Estilo Anime">Estilo Anime</option>
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="date" id="fecha" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="time" id="hora" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="comentarios" rows="2" placeholder="Comentarios adicionales (opcional)"></textarea>
+                        </div>
+                        <button type="submit" class="btn-reservar">
+                            <i class="fab fa-whatsapp"></i> Reservar cita
+                        </button>
+                        <div id="mensajeConfirmacion" class="mensaje-confirmacion"></div>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <div class="contact-details">
+                        <p><i class="fas fa-phone-alt"></i> <strong>+53 5853 6942</strong></p>
+                        <p><i class="fab fa-whatsapp"></i> <strong>+53 7654 3210</strong></p>
+                        <p><i class="fab fa-instagram"></i> @winkart.cuba</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Calzada del Cerro #126, Centro Habana</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <p>© 2025 Winkart - Estudio de Pestañas | Realza tu mirada con estilo</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- MODAL PARA SERVICIOS -->
+    <div id="modalServicio" class="modal-servicio">
+        <div class="modal-servicio-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-flex">
+                <div class="modal-flex-image">
+                    <img id="modalImagen" src="" alt="Servicio">
+                </div>
+                <div class="modal-flex-text" id="modalBody">
+                    <!-- Contenido dinámico -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
